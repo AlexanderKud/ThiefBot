@@ -1,5 +1,7 @@
 # ThiefBot - 1000 BTC Puzzle Transaction Replacer
 
+1000 BTC puzzle more info : https://privatekeys.pw/puzzles/bitcoin-puzzle-tx
+
 A python code which scans the BTC mempool for transaction from a specific wallet, and if found, then it takes public key from the transaction, and uses it to run Kangaroo.exe, which quickly finds the private key within a specified range using that Public Key. 
 After getting the private key, it creates a raw transaction to a specified address
 Signs the transaction using the private key
