@@ -44,3 +44,6 @@ f.write("3fffffffffffffffff\n")  # Specify end range hex
 recipient_address = 'bc1q77sekfapwfnvs9w5dwutcsjyf8lpf7sn0fmfgn' # your btc address where you wanna receive the prize coins
 
 Also make sure you choose the correct path for your chromedriver:   service = Service('C:/Users/Computer/Desktop/chromedriver-win64/chromedriver.exe')
+
+Also, please donate if you win something: bc1q77sekfapwfnvs9w5dwutcsjyf8lpf7sn0fmfgn
+Im 17 years old, from Kosovo, need money for college fund. Thank you.
