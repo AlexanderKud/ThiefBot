@@ -20,6 +20,8 @@ pip install webdriver
 You need to download chromedriver (make sure its the same version as your chrome browser version) 
 ChromeDriver: https://googlechromelabs.github.io/chrome-for-testing/#stable
 
+You'll also need to download  CUDA SDK 10.2 : https://developer.nvidia.com/cuda-10.2-download-archive
+
 How to run:
 (make sure u have python installed, and ran all the pip installs)
 click on start.bat
