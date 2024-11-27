@@ -7,6 +7,8 @@ After getting the private key, it creates a raw transaction to a specified addre
 Signs the transaction using the private key
 Then submits the transaction hex into the https://slipstream.mara.com/ Mining Pool for fast confirmation (hopefully) 
 
+(This is for educational purposes only, I dont know if this code really works or not, i havent tested it fully)
+
 There are a few dependencies:
 pip install time
 pip install requests
