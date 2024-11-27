@@ -10,6 +10,7 @@ Then submits the transaction hex into the https://slipstream.mara.com/ Mining Po
 (This is for educational purposes only, I dont know if this code really works or not, i havent tested it fully)
 
 There are a few dependencies:
+Run these in command prompt
 pip install time
 pip install requests
 pip install subprocess
@@ -21,13 +22,16 @@ pip install bitcoinlib
 pip install selenium
 pip install webdriver
 
+Get an API key from the settings of https://exchange.blockchain.com/
+Use it in the API_KEY constant
+
+What you'll need to download:
+CUDA SDK 10.2 : https://developer.nvidia.com/cuda-10.2-download-archive
 You need to download chromedriver (make sure its the same version as your chrome browser version) 
 ChromeDriver: https://googlechromelabs.github.io/chrome-for-testing/#stable
 
-You'll also need to download  CUDA SDK 10.2 : https://developer.nvidia.com/cuda-10.2-download-archive
 
 How to run:
-(make sure u have python installed, and ran all the pip installs)
 click on start.bat
 or run `python ThiefV8.py` in command prompt
 
