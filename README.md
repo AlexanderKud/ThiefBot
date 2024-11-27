@@ -24,6 +24,8 @@ How to run:
 (make sure u have python installed, and ran all the pip installs)
 click on start.bat
 
+If the code actually manages to replace the transaction, you'll know, cause you'll have 6.0 btc in your wallet
+
 Editable Parameteres:
 # Constants
 API_KEY = 'apiKeyApiKeyApikey' # edit with your exchange.blockchain.com Api Key, find it in settings
