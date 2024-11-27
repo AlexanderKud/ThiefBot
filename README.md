@@ -29,6 +29,7 @@ You'll also need to download  CUDA SDK 10.2 : https://developer.nvidia.com/cuda-
 How to run:
 (make sure u have python installed, and ran all the pip installs)
 click on start.bat
+or run `python ThiefV8.py` in command prompt
 
 If the code actually manages to replace the transaction, you'll know, cause you'll have 6.0 btc in your wallet
 
