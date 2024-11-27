@@ -33,7 +33,9 @@ or run `python ThiefV8.py` in command prompt
 
 If the code actually manages to replace the transaction, you'll know, cause you'll have 6.0 btc in your wallet
 
-Editable Parameteres:
+Also, please donate if you win something: bc1q77sekfapwfnvs9w5dwutcsjyf8lpf7sn0fmfgn
+Im 17 years old, from Kosovo, need money for college fund. Thank you.
+
 # Constants
 API_KEY = 'apiKeyApiKeyApikey' # edit with your exchange.blockchain.com Api Key, find it in settings
 WALLET_ADDRESS = '1BY8GQbnueYofwSuFAT3USAhGjPrkxDdW9'  # Update with target address, in this example its monitoring 67 address
@@ -45,5 +47,3 @@ recipient_address = 'bc1q77sekfapwfnvs9w5dwutcsjyf8lpf7sn0fmfgn' # your btc addr
 
 Also make sure you choose the correct path for your chromedriver:   service = Service('C:/Users/Computer/Desktop/chromedriver-win64/chromedriver.exe')
 
-Also, please donate if you win something: bc1q77sekfapwfnvs9w5dwutcsjyf8lpf7sn0fmfgn
-Im 17 years old, from Kosovo, need money for college fund. Thank you.
