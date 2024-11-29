@@ -2,7 +2,7 @@
 
 1000 BTC puzzle more info : https://privatekeys.pw/puzzles/bitcoin-puzzle-tx
 
-A python code which scans the BTC mempool for transaction from a specific wallet, and if found, then it takes public key from the transaction, and uses it to run Kangaroo.exe, which quickly finds the private key within a specified range using that Public Key. 
+A python program which scans the BTC mempool for transaction from a specific wallet, and if found, then it takes public key from the transaction, and uses it to run Kangaroo.exe, which quickly finds the private key within a specified range using that Public Key. 
 After getting the private key, it creates a raw transaction to a specified address
 Signs the transaction using the private key
 Then submits the transaction hex into the https://slipstream.mara.com/ Mining Pool for fast confirmation (hopefully) 
@@ -25,10 +25,14 @@ pip install webdriver
 Get an API key from the settings of https://exchange.blockchain.com/
 Use it in the API_KEY constant
 
+
 What you'll need to download:
 CUDA SDK 10.2 : https://developer.nvidia.com/cuda-10.2-download-archive
 You need to download chromedriver (make sure its the same version as your chrome browser version) 
 ChromeDriver: https://googlechromelabs.github.io/chrome-for-testing/#stable
+
+Also make sure you choose the correct path for your chromedriver:   service = Service('C:/Users/Computer/Desktop/chromedriver-win64/chromedriver.exe')
+
 
 
 How to run:
